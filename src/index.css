@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @media (min-width: 1000px) {
+    .content {
+      margin-left: 240px;
+      margin-top: 50px;
+    }
+  }
+  
+.font-fixing{
+  font-family: "Poppins";
+}
+
+.text-deco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  background-color: rgb(241, 241, 250);
+}
+
+@media (max-width: 768px) {
+  .heading .text-end {
+    flex-direction: column; 
+  }
+
+  .heading .btn {
+    margin: 5px 0; 
+  }
+}
+
+.header{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.text-color{
+  color: white;
+}
+
+.bg-color{
+  background-color: rgb(19, 2, 120);
+}
+.btn-right {
+  position: absolute; 
+  top: 10px;          
+  right: 10px;        
+}
+
+.cont{
+  position: relative;
+}
+
+.loginbtn{
+  float: right;
+  margin-right: 20px;
+}
